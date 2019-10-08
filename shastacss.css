@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+img,
+h1,
+h2,
+h3,
+p,
+li,
+ul,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+  background: white;
+  color: #006DB0;
+  text-align: center;
+  font-family: 'Lato', serif;
+}
+h1 {
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom:10px;
+}
+h4 {
+  font-size: 12px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+br {
+  margin: 3px;
+}
+header {
+  font-family: 'Open Sans';
+}
+header ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  align-items: center;
+  padding: 5px 80px 5px 0px;
+  margin: 0;
+}
+ul {
+  background-color: #FFFFFF;
+  height: 60px;
+}
+#nav-bar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 1px 1px #778cc0;
+  z-index: 1;
+}
+#nav-bar a {
+  margin-left: auto;
+  margin-right: auto;
+  width: 165px;
+  height: 41px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #006DB0;
+  padding: 1.1em;
+}
+.nav-link:hover{
+  color: black;
+}
+ul {
+  list-style: none;
+  line-height: 1.2;
+  padding: 0;
+}
+li {
+  text-align: center;
+  overflow: visible;
+  position: relative;
+  color: #d0c9e3;
+  font-size: 16px;
+}
+#header-img{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+strong {
+  font-weight: 900;
+}
+a:visited {
+  color: pink;
+}
+#main {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+#main p {
+  width: 50%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+}
+#maintwo {
+padding-top:100px;
+margin: auto;
+height: auto;
+width: 75%;
+border-radius: 5px;
+}
+#maintwo p {
+   width: 75%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#title {
+  color: #FFFFFF;
+ font-size: 50px;
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  letter-spacing: 5px;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+#img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#image {
+  padding-bottom: 60px;
+}
+#shasta-info {
+  font-size: 15px;
+  padding-bottom: 100px;
+}
+#shasta-info h1 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+#tribute-link {
+  font-style: normal;
+  font-size: 13px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+   #main div {
+    width: 95%;
+     } 
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  ul {
+    font-size: 12px;
+    line-height: 1.0;
+  }
+  li {
+    padding-bottom: 10px;
+  }
+  #img-caption {
+    font-size: 9px;
+  }
+}
