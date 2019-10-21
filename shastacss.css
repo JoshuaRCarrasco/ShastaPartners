@@ -13,8 +13,8 @@ html {
 }
 body {
   margin: auto;
-  background: white;
-  color: #006DB0;
+  background: #FFFFFF;
+  color: #464646;
   text-align: center;
   font-family: 'Lato', serif;
 }
@@ -33,9 +33,6 @@ h4 {
   font-size: 12px;
   padding-top: 20px;
   font-weight: 400;
-}
-br {
-  margin: 3px;
 }
 header {
   font-family: 'Open Sans';
@@ -62,8 +59,6 @@ ul {
 #nav-bar a {
   margin-left: auto;
   margin-right: auto;
-  width: 165px;
-  height: 41px;
 }
 .nav-link{
   text-decoration: none;
@@ -91,19 +86,46 @@ li {
   margin-top: 15px;
   margin-left: 50px;
   margin-bottom: 50px;
-  max-width: 100%;
+  width: 15%;
+}
+@media only screen and (max-width: 500px) {
+  #header-img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 strong {
   font-weight: 900;
 }
 a:visited {
-  color: pink;
+  color: #919098;
+}
+.underbar {
+  background-color: #006DB0;
+  padding-top: 100px;
+  margin: auto;
+}
+#underbarcontainer {
+  width: 60%;
+}
+#underbarcontainer h1 {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 500px) {
+  #underbarcontainer h1 {
+    padding-left: 90px;
+  }
 }
 #main {
   margin: auto;
   height: auto;
   width: 100%;
-  border-radius: 5px;
+  padding-bottom: 50px;
 }
 #main p {
   width: 50%;
@@ -112,20 +134,138 @@ a:visited {
   line-height: 25px;
   text-align: left;
 }
-#maintwo {
-padding-top:100px;
+@media only screen and (max-width: 500px) {
+  #main p {
+    width: 90%;
+    text-align: center;
+  }
+}
+.aboutus {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  line-height: 25px;
+}
+@media only screen and (max-width: 500px) {
+.aboutus {
+  width: 80%;
+  text-align: center;
+}
+}
+.aboutus hr{
+width: 50%;
+margin-top: 50px;
+margin-bottom: 0px;
+}
+#aboutimg {
+  padding-top: 20px;
+}
+.contact {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  line-height: 25px;
+}
+.contact p {
+  padding-bottom: 15px;
+}
+.maintwo {
+padding-top:110px;
 margin: auto;
 height: auto;
-width: 100%;
-border-radius: 5px;
+width: 90%;
 }
-#maintwo p {
+.maintwo p {
    width: 90%;
   margin: auto;
   font-size: 16px;
   line-height: 25px;
   padding-bottom: 10px;
   text-align: left;
+}
+.maintwo hr {
+  color: black;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.maintwo br {
+  clear: both;
+}
+#team {
+padding-top:50px;
+padding-bottom: 50px;
+margin: auto;
+height: auto;
+width: 80%;
+}
+@media only screen and (max-width: 500px) {
+  #team {
+    width: 90%;
+  }
+}
+#teamimg{
+  float: left;
+  width: 20%;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+@media only screen and (max-width: 500px) {
+  #teamimg {
+    width: 50%;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+#team p {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+@media only screen and (max-width: 500px) {
+  #team p {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+}
+#team a {
+  margin-left: auto;
+  margin-right: auto;
+}
+#team hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#teambox {
+  box-sizing: border-box;
+  width: 100%;
+}
+#linkedin {
+  display: inline-block;
+  text-align: left;
+
+}
+#linkedinimg {
+  width: 20%;
 }
 #title {
   color: #FFFFFF;
@@ -139,23 +279,69 @@ border-radius: 5px;
   left: 50%;
   transform: translate(-50%, -50%)
 }
+@media only screen and (max-width: 800px) {
+  #title {
+    top: 20%;
+}
+  }
+@media only screen and (max-width: 500px) {
+  #title {
+    top: 5%;
+}
+  }
 #img-div {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+#img-div2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 40px;
+}
+@media only screen and (max-width: 500px) {
+  #img-div2 {
+    padding-top: 60px;
+}
+  }
 #image {
   padding-bottom: 60px;
 }
-#shasta-info {
-  font-size: 15px;
-  padding-bottom: 100px;
+#image2 {
+  padding: 0;
 }
-#shasta-info h1 {
+.shasta-info {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .shasta-info {
+    font-size: 10px;
+  }
+}
+.shasta-info h1 {
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: left;
+  color: #006DB0;
+}
+@media only screen and (max-width: 500px) {
+  .shasta-info h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .shasta-info p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
 }
 #tribute-link {
   font-style: normal;
@@ -169,8 +355,76 @@ img {
 .tombstone {
   float: left;
   width: 20%;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 30px;
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .tombstone {
+    width: 70%;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+#contactfooter {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+#footerbar {
+  width: 100%;
+
+}
+#footerber br {
+  clear: both;
+}
+
+#footerbar p{
+  display: flex;
+  color: #FFFFFF;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 50px;
+  float: none;
+}
+#footerbar ul {
+  display: flex;
+  bottom: 0;
+  justify-content: right;
+  list-style: none;
+  align-items: center;
+  padding: 5px 80px 5px 0px;
+  margin: 0;
+  background-color: black;
+  box-shadow: 1px 1px #778cc0;
+}
+@media only screen and (max-width: 500px) {
+  #footerbar ul {
+    display: inline;
+    padding: 0;
+    background-color: transparent;
+  }
+}
+#footbar a {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .footer-link {
+    padding-bottom: 10px;
+    color: black;
+  }
+}
+.footer-link:hover{
+  color: #778cc0;
 }
 @media only screen and (max-width: 767px) {
    #main div {
