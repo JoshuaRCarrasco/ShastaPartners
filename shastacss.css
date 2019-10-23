@@ -408,8 +408,9 @@ img {
 }
 #footerbar ul {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   bottom: 0;
-  justify-content: right;
   list-style: none;
   align-items: center;
   padding: 5px 80px 5px 0px;
