@@ -56,6 +56,10 @@ ul {
   box-shadow: 1px 1px #778cc0;
   z-index: 1;
 }
+@media only screen and (max-width: 500px) {
+  #nav-bar {
+  }
+}
 #nav-bar a {
   margin-left: auto;
   margin-right: auto;
@@ -81,6 +85,11 @@ li {
   color: #d0c9e3;
   font-size: 16px;
 }
+@media only screen and (max-width: 500px) {
+  #nav-bar li {
+    display: none;
+  }
+}
 #header-img{
   position: absolute;
   margin-top: 15px;
@@ -93,6 +102,7 @@ li {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 10px;
   }
 }
 strong {
@@ -287,6 +297,7 @@ width: 80%;
 @media only screen and (max-width: 500px) {
   #title {
     top: 5%;
+    font-size: 20px;
 }
   }
 #img-div {
@@ -294,6 +305,11 @@ width: 80%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  #img-div {
+    padding-top: 70px;
+  }
 }
 #img-div2 {
   display: block;
@@ -426,6 +442,47 @@ img {
 .footer-link:hover{
   color: #778cc0;
 }
+
+.topnav {
+  color: white;
+  position: relative;
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .topnav {
+    display: block;
+  }
+}
+.topnav i {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.topnav #myLinks {
+  display: none;
+  background-color: #006DB0;
+}
+#myLinks a:hover {
+  background-color: grey;
+}
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {  
+  color: blue;
+}
+
 @media only screen and (max-width: 767px) {
    #main div {
     width: 95%;
