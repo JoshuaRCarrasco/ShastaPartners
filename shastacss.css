@@ -278,7 +278,12 @@ width: 80%;
 
 }
 #linkedinimg {
-  width: 20%;
+  width: 15%;
+}
+@media only screen and (max-width: 800px) {
+ #linkedinimg {
+   width: 40%;
+  }
 }
 #title {
   color: #FFFFFF;
