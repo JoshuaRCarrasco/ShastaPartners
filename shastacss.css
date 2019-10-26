@@ -305,7 +305,7 @@ width: 80%;
   }
 @media only screen and (max-width: 500px) {
   #title {
-    top: 32%;
+    top: 35%;
     font-size: 16px;
 }
   }
