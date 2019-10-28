@@ -137,19 +137,27 @@ a:visited {
   background-color: #006DB0;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: white;
+  clear: both;
 }
 .numberbar h1 {
+  font-weight: 900;
   font-size: 40px;
   padding-bottom: 30px;
   color: white;
   letter-spacing: 8px;
   text-align: center;
+  font-family: 'Open Sans';
+  color: black;
 }
 .numberbar h2 {
-  font-size: 50px;
+  font-weight: 400;
+  font-size: 60px;
   padding-right: 5px;
   padding-bottom: 5px;
   color: white;
+  font-family: 'Lato', serif;
+  color: black;
 }
 #numberbarcontainer {
   margin: auto;
@@ -167,7 +175,6 @@ a:visited {
   margin: auto;
   height: auto;
   width: 100%;
-  padding-bottom: 50px;
 }
 #main p {
   width: 50%;
@@ -415,7 +422,18 @@ img {
   margin-left: 20px;
   padding-bottom: 40px;
 }
-
+.tombstone2container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#tombstone2 {
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+}
 @media only screen and (max-width: 500px) {
   .tombstone {
     width: 70%;
