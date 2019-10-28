@@ -406,6 +406,12 @@ width: 80%;
     color: black;
   }
 }
+.shasta-info2 {
+ font-size: 20px;
+  padding-bottom: 80px;
+  text-align: left;
+  font-weight: 600;
+}
 #tribute-link {
   font-style: normal;
   font-size: 13px;
