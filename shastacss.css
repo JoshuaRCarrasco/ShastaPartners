@@ -169,10 +169,20 @@ a:visited {
   text-align: center;
 }
 @media only screen and (max-width: 500px) {
- display: block; 
+  #numberbarcontainer {
+ display: block;
+  width: 90%;
+  }
 }
 #numberbarcontainer div {
   width: 25%;
+}
+@media only screen and (max-width: 500px) {
+  #numberbarcontainer div {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 15px;
+}
 }
 #main {
   margin: auto;
