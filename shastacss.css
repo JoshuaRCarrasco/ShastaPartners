@@ -159,6 +159,11 @@ a:visited {
   font-family: 'Lato', serif;
   color: black;
 }
+@media only screen and (max-width: 500px) {
+  .numberbar h2 {
+    font-size: 40px;
+  }
+}
 #numberbarcontainer {
   margin: auto;
   width: 80%;
