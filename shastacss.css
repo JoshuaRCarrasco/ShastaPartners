@@ -435,6 +435,13 @@ img {
   padding-right: 30px;
 }
 @media only screen and (max-width: 500px) {
+  #tombstone2 {
+   float: none;
+    width: 60%;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
   .tombstone {
     width: 70%;
     float: none;
