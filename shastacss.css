@@ -440,7 +440,7 @@ img {
   display: flex;
   float: left;
   width: 30%;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 @media only screen and (max-width: 500px) {
   #tombstone2 {
