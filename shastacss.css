@@ -429,6 +429,12 @@ img {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+@media only screen and (max-width: 500px) {
+ .tombstone2container {
+  width: 90%;
+   display: block;
+  }
+}
 #tombstone2 {
   float: left;
   width: 30%;
