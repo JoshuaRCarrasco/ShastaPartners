@@ -423,9 +423,8 @@ img {
   padding-bottom: 40px;
 }
 .tombstone2container {
-  width: 80%;
+  width: 90%;
   display: flex;
-  flex-direction: row;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -437,10 +436,8 @@ img {
   }
 }
 #tombstone2 {
-  display: flex;
-  float: left;
   width: 20%;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 @media only screen and (max-width: 500px) {
   #tombstone2 {
