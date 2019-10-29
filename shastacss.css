@@ -256,6 +256,11 @@ width: 80%;
   padding-bottom: 10px;
   text-align: left;
 }
+@media only screen and (max-width: 500px) {
+ .maintwo p {
+   text-align: center;
+  }
+}
 .maintwo hr {
   color: black;
   width: 100%;
@@ -426,6 +431,11 @@ width: 80%;
 }
 #biggertext {
  font-size: 20px; 
+}
+@media only screen and (max-width: 500px) {
+ #biggertext {
+   font-size: 12px;
+  }
 }
 .shasta-info2 {
   padding-bottom: 80px;
