@@ -451,6 +451,11 @@ width: 80%;
    text-align: center;
   }
 }
+@media only screen and (max-width: 500px) {
+ .shasta-info2 p {
+   font-size: 14px;
+  }
+}
 #tribute-link {
   font-style: normal;
   font-size: 13px;
