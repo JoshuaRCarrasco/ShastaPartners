@@ -435,6 +435,7 @@ width: 80%;
 @media only screen and (max-width: 500px) {
  #biggertext {
    font-size: 12px;
+   font-weight: 200;
   }
 }
 .shasta-info2 {
