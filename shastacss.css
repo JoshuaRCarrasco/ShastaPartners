@@ -179,6 +179,9 @@ a:visited {
   width: 90%;
   }
 }
+#numberbarcontainer p {
+ font-weight: 900; 
+}
 #numberbarcontainer div {
   width: 25%;
 }
