@@ -424,11 +424,21 @@ width: 80%;
     color: black;
   }
 }
+#biggertext {
+ font-size: 20px; 
+}
 .shasta-info2 {
- font-size: 20px;
   padding-bottom: 80px;
   text-align: left;
   font-weight: 600;
+}
+.shasta-info2 p {
+  font-size: 20px;
+}
+@media only screen and (max-width: 500px) {
+ .shasta-info2 {
+   text-align: center;
+  }
 }
 #tribute-link {
   font-style: normal;
