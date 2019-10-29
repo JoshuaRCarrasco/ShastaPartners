@@ -248,6 +248,11 @@ margin: auto;
 height: auto;
 width: 80%;
 }
+@media only screen and (max-width: 500px) {
+ .maintwo {
+   padding-top: 60px;
+  }
+}
 .maintwo p {
    width: 90%;
   margin: auto;
