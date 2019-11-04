@@ -572,7 +572,7 @@ img {
 }
 
 .topnav {
-  color: white;
+  color: black;
   position: relative;
   display: none;
 }
@@ -588,6 +588,7 @@ img {
 .topnav #myLinks {
   display: none;
   background-color: #006DB0;
+  color: white;
 }
 #myLinks a:hover {
   background-color: grey;
