@@ -148,6 +148,11 @@ a:visited {
   text-align: center;
   font-family: 'Lato', serif;
 }
+@media only screen and (max-width: 500px) {
+ .numberbar h1 {
+   font-size: 20px;
+  }
+}
 .numberbar h2 {
   font-weight: 400;
   font-size: 60px;
