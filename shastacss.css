@@ -236,17 +236,17 @@ margin-bottom: 0px;
   padding-top: 20px;
 }
 .contact {
-  padding-top: 120px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 80px;
   padding-left: 30px;
   padding-right: 30px;
   width: 75%;
   margin: auto;
-  text-align: left;
   line-height: 25px;
 }
 .contact p {
   padding-bottom: 15px;
+  text-align: center;
 }
 .maintwo {
 padding-top:110px;
