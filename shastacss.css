@@ -200,6 +200,11 @@ a:visited {
   color: #006DB0;
   padding-top: 30px;
 }
+@media only screen and (max-width: 500px) {
+ #rtransac {
+   font-size: 20px;
+  }
+}
 #main {
   margin: auto;
   height: auto;
