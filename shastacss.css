@@ -145,7 +145,6 @@ a:visited {
   font-size: 40px;
   padding-bottom: 30px;
   color: white;
-  letter-spacing: 5px;
   text-align: center;
   font-family: 'Lato', serif;
 }
@@ -188,6 +187,13 @@ a:visited {
   margin: auto;
   padding-bottom: 15px;
 }
+}
+
+#rtransac {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  padding-top: 30px;
 }
 #main {
   margin: auto;
