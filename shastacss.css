@@ -619,9 +619,10 @@ line-height: 25px;
 }
 @media only screen and (max-width: 500px) {
   #footerbar ul {
-    display: inline;
+    display: block;
     padding: 0;
     background-color: transparent;
+    bottom: initial;
   }
 }
 #footbar a {
