@@ -620,7 +620,6 @@ line-height: 25px;
   padding: 5px 80px 5px 0px;
   margin: 0;
   background-color: black;
-  box-shadow: 1px 1px #778cc0;
 }
 @media only screen and (max-width: 500px) {
   #footerbar ul {
