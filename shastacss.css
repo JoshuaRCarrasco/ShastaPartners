@@ -554,6 +554,7 @@ padding-left: 90px;
     width: 90%;
     padding-left: 0px;
     margin: auto;
+    padding-bottom: 20px;
   }
 }
 .legacy h1 {
@@ -580,6 +581,7 @@ line-height: 25px;
     text-align: center;
     width: 90%;
     font-size: 12px;
+    padding-bottom: 30px;
   }
 }
 #footerbar {
