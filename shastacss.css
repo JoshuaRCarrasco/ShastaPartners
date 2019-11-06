@@ -545,7 +545,7 @@ flex-direction: column;
   }
 }
 .legacy {
-  width: 30%;
+  width: 40%;
 padding-left: 90px;
 }
 @media only screen and (max-width: 500px) {
