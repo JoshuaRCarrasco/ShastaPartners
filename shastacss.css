@@ -533,11 +533,6 @@ img {
     margin-left: auto;
   }
 }
-#contactfooter {
- position: absolute;
- bottom: 0;
- width: 100%;
-}
 .legacycontainer {
   display: flex;
   padding-top: 50px;
@@ -587,6 +582,16 @@ line-height: 25px;
     width: 90%;
     font-size: 12px;
     padding-bottom: 30px;
+  }
+}
+#contactfooter {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+@media only screen and (max-width: 500px) {
+ #contactfooter {
+   position: relative;
   }
 }
 #footerbar {
