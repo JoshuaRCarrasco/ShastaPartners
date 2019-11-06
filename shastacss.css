@@ -574,6 +574,8 @@ line-height: 25px;
 }
 @media only screen and (max-width: 500px) {
   .legacy2 {
+    display: block;
+    margin: auto;
     padding-left: 0px;
     text-align: center;
     width: 90%;
