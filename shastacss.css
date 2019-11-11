@@ -585,7 +585,7 @@ line-height: 25px;
   }
 }
 #contactfooter {
- position: absolute;
+ position: fixed;
  bottom: 0;
  width: 100%;
 }
@@ -596,9 +596,6 @@ line-height: 25px;
 }
 #footerbar {
   width: 100%;
-  bottom: initial;
-  position: fixed;
-
 }
 #footerber br {
   clear: both;
