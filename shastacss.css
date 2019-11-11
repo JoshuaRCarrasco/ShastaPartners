@@ -94,10 +94,9 @@ li {
 }
 #header-img{
   position: absolute;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 50px;
   margin-bottom: 50px;
-  padding-bottom: 10px;
   width: 20%;
 }
 @media only screen and (max-width: 500px) {
