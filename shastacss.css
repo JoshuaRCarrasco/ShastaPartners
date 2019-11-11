@@ -253,7 +253,8 @@ margin-bottom: 0px;
   padding-right: 30px;
   width: 75%;
   display: block;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   line-height: 25px;
 }
 @media only screen and (max-width: 500px) {
