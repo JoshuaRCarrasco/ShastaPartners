@@ -538,6 +538,11 @@ img {
   padding-bottom: 15px;
   text-align: left;
 }
+@media only screen and (max-width: 500px) {
+ .contact p {
+   text-align: center;
+  }
+}
 .legacycontainer {
   display: flex;
   padding-top: 50px;
