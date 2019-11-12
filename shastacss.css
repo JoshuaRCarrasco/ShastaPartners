@@ -524,7 +524,7 @@ img {
 .contact {
   padding-top: 100px;
   padding-bottom: 80px;
-  width: 75%;
+  width: 100%;
   display: flex;
  justify-content: center;
   line-height: 25px;
@@ -537,8 +537,6 @@ img {
 .contact p {
   padding-bottom: 15px;
   text-align: left;
-  margin-right: auto;
-  margin-left: auto;
 }
 .legacycontainer {
   display: flex;
