@@ -247,28 +247,6 @@ margin-bottom: 0px;
 #aboutimg {
   padding-top: 20px;
 }
-.contact {
-  padding-top: 100px;
-  padding-bottom: 80px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 75%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 25px;
-}
-@media only screen and (max-width: 500px) {
- .contact {
-   padding-top: 50px;
-  }
-}
-.contact p {
-  padding-bottom: 15px;
-  text-align: left;
-  margin-right: auto;
-  margin-left: auto;
-}
 .maintwo {
 padding-top:110px;
 margin: auto;
@@ -542,6 +520,27 @@ img {
     margin-right: auto;
     margin-left: auto;
   }
+}
+.contact {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 75%;
+  display: flex;
+ justify-content: center;
+  line-height: 25px;
+}
+@media only screen and (max-width: 500px) {
+ .contact {
+   padding-top: 50px;
+  }
+}
+.contact p {
+  padding-bottom: 15px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
 }
 .legacycontainer {
   display: flex;
